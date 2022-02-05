@@ -1,0 +1,36 @@
+# to make folder 
+    eg1- mkdir "sushil hero.txt" = "" should be used if space
+    eg2- mkdir onefile twofile threefile= to make multiple file
+
+# to make file
+     eg1- touch "file name"
+     eg2- touch one two three
+
+
+# to rename file
+    eg - mv "file name" "new name"
+
+# to remove file 
+   eg- rm file name
+
+ # to remove folder
+    eg- rm -rf folder name
+
+
+# to change path disk drive 
+     eg - cd f://
+
+# to chage directory
+   eg- cd filename or folder name
+
+# to go one step back
+   eg- cd ..
+
+#to ente in any file to write
+   eg- code file name
+
+# to list out the file in folder
+    = ls 
+
+# to run code 
+ eg= python file name.

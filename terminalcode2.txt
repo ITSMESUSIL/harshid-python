@@ -1,0 +1,15 @@
+# to copy file in same directory
+     = cp filename or folder ./foldername
+
+# to move file
+     = mv filename or folder  ./foldername
+
+# to copy or move file to one step back
+     = mv filename ..
+     = cp filename..
+     
+
+# to run code in terminal 
+    = python file.txt
+    # to run second time
+    = press up arrow and enter
