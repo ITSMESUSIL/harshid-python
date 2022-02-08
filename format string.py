@@ -13,6 +13,12 @@ print("your name is {} class is {} \troll is {}  and branch is {}".format(name,c
 
 # type 3
 print(f"your name is {name}class is {class2}\trollno is, {rollno}\tyour branch is {field}")
+ 
+ # excersise
+one,two,three= input("enter first ,second and third no. using ,").split(",")
+average =((int(one)+int(two)+int(three))/3)
+print(f"your average is {average}")
+print("your average is {}".format(average))
 
 
 
