@@ -1,18 +1,18 @@
-# from sys import set_coroutine_origin_tracking_depth
+from sys import set_coroutine_origin_tracking_depth
 
 
-# #one type
-# name= "sushil\t"
-# class2= 5
-# rollno=39
-# field= "\tscience\t" 
-# print( "your name is",name  +"class is",str(class2)+" "+"\trollno is,",str(rollno)+"\tyour branch is",field)
+#one type
+name= "sushil\t"
+class2= 5
+rollno=39
+field= "\tscience\t" 
+print( "your name is",name  +"class is",str(class2)+" "+"\trollno is,",str(rollno)+"\tyour branch is",field)
 
-# #second type
-# # print("your name is {} class is {} \troll is {}  and branch is {}".format(name,class2,rollno,field))
+#second type
+print("your name is {} class is {} \troll is {}  and branch is {}".format(name,class2,rollno,field))
 
-# # type 3
-# print(f"your name is {name}class is {class2}\trollno is, {rollno}\tyour branch is {field}")
+# type 3
+print(f"your name is {name}class is {class2}\trollno is, {rollno}\tyour branch is {field}")
 
 
 
