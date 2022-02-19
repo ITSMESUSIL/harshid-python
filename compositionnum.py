@@ -28,13 +28,3 @@ else:
     print("neutral")
     print("it is neither even nor odd")
     print("it is neither prime nor composite")
-
-
-# x=int(input("enter your no"))
-# if x==0:
-#     print("it is not even not odd")
-# else:
-#     if x%2==0:
-#         print("it is even")
-#     else:
-#         print("it is odd")
