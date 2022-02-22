@@ -53,7 +53,7 @@ print(list1) """
 
 
 #another question is take two list and print the common number in those list
-list1= [1,2,3,4,5,6,7]
+''' list1= [1,2,3,4,5,6,7]
 list2= [2,3,4,7,8,9]
 def common(a,b):
     x=0
@@ -67,5 +67,30 @@ def common(a,b):
             continue
     return list
 print(common(list1,list2))
-            
+ '''
+
+
+
+
+
+
+
+# last exercise
+#take any list having multiple list inside and print how many 
+# list are inside
+''' list1= [1,2,[1,2,3],4,[5,6,7]]
+if type(list1)==list:
+    print("list ho")
+ '''
+ 
+# to check how many list are in given list 
+''' list1= [1,2,[1,2,3],4,[5,6,7]]
+def listcount(l):
+    num=0
+    for i in list1:
+        if type(i)==list:
+            num+=1
+    return num
+print(listcount(list1))    
     
+ '''
