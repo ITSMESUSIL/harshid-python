@@ -10,11 +10,10 @@ print(list2)
 # using map it will easier
 # actually you can use map instead of list comprehension
 def function1(a):
-    list3=[]
-    list3.append(a**2)
-    return list3
-map(function1,list1)
+    return a**2
+numbers=tuple(map(function1,list1))
+print(numbers)
 
 
 list4=["sushil","kathayat","last"]
-prin(map(len,list4))
+print(map(len,list4))
