@@ -17,3 +17,16 @@ print(numbers)
 
 list4=["sushil","kathayat","last"]
 print(map(len,list4))
+
+
+
+
+
+# another
+list5=[1,2,3,4,5,6,7,8]
+def oddeven(a):
+    if a%2==0:
+        return a
+even= list(map(oddeven,list5))
+print(even)
+# it include none so we use filter
