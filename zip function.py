@@ -22,3 +22,10 @@ print(dict(list1)) '''
 list2=["sushl","bacheoler","it"]
 zip2=dict(zip(list1,list2))
 print(zip2) '''
+
+
+# [(1,2),(3,4),(5,6)]==[(1,3,5),(2,4,6)] using *
+list1=[(1,2),(3,4),(5,6)]
+print(list(zip(*list1)))
+
+#
