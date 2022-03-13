@@ -25,7 +25,15 @@ print(zip2) '''
 
 
 # [(1,2),(3,4),(5,6)]==[(1,3,5),(2,4,6)] using *
-list1=[(1,2),(3,4),(5,6)]
-print(list(zip(*list1)))
+''' list1=[(1,2),(3,4),(5,6)]
+print(list(zip(*list1))) '''
 
-#
+#two lists who is greater using zip
+''' l1=[1,2,3,4,5]
+l2=[2,3,4,5,4]
+for pair in zip(l1,l2):
+    if pair[0]>pair[1]:
+        print(pair[0])
+    else:
+        print(pair[1])
+ '''
